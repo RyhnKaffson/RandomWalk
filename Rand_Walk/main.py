@@ -10,7 +10,7 @@ import time
 from PIL import Image
 BASE_DIR = os.path.dirname(os.path.realpath(sys.argv[0]));
 
-#采用闭包的方法进行作图
+
 def scatter_plot(x_val,y_val):
     global ax;
     global fig;
